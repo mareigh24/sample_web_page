@@ -90,12 +90,28 @@ ul {
   );
   padding: 70px 150px 70px 150px;
 }
+.backgrounds {
+  background-image: url("https://res.cloudinary.com/dktrwqio1/image/upload/v1706449203/Dwolla/Assets/cta-image_un4dqa.svg");
+  background-size: 100%;
+}
+.footer_items {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.footer_items ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.footer_button {
+  background-color: #ca4c24;
+}
 
 @media (max-width: 576px) {
   .Word {
     padding: 0px 0px 0px 0px;
   }
   .word {
-    padding: 20px auto~;
+    padding: 20px auto;
   }
 }
